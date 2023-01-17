@@ -131,6 +131,8 @@ public class JdbcUtils implements Serializable {
     public static DatabaseType getDbType(String jdbcUrl) {
         if (jdbcUrl.contains(":mysql:") || jdbcUrl.contains(":cobar:")) {
             return DatabaseType.MYSQL;
+        } else if (jdbcUrl.contains(":clickhouse:")) {
+            return DatabaseType.CLICKHOUSE;
         } else if (jdbcUrl.contains(":mariadb:")) {
             return DatabaseType.MARIADB;
         } else if (jdbcUrl.contains(":oracle:")) {

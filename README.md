@@ -50,6 +50,7 @@
 - [x] SqlServer 
 - [x] PostgreSQL
 - [x] Cache DB（2016）
+- [x] ClickHouse (新增)
 - [ ] H2 （开发中）
 - [ ] DB2  （开发中）
 - [ ] HSQL  （开发中）
