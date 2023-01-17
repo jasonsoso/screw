@@ -89,9 +89,8 @@ public class MySQLDocumentationBuilderTest extends AbstractDocumentationExecute 
             //版本
             .version("1.0.0")
             //描述
-            .description("数据库设计文档生成")
             //.description("蜘点名片通数据库设计文档生成")
-            //.description("数字化数据库设计文档生成")
+            .description("数字化数据库设计文档生成")
             //.description("新零售数据库设计文档生成")
             //数据源
             .dataSource(dataSource)
